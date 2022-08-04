@@ -236,7 +236,7 @@ function App() {
               <input type={'text'}  id="MessageInputBox" name="MessageEntry" placeholder='Type your message here...' onChange={MessageTextUpdate} required></input>
             </div>
             <div className="MessageSendButton">
-              <input type={'button'}  onClick={MessageEntered} id="MessageSendButton" value={"Send"}></input>
+              <input type={'submit'}  onClick={MessageEntered} id="MessageSendButton" value={"Send"}></input>
             </div>
           </form>
         </div>

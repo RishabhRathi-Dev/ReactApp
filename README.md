@@ -1,4 +1,4 @@
-#Mini Projecct for Wysa Internship
+# Mini Project for Wysa Internship
 
 ## Instruction:
 - Any login credential will login to the chat section.
@@ -11,3 +11,5 @@
 - Javascript
 - HTML
 - CSS
+
+## Bonus Point 1 and 4 attempted 

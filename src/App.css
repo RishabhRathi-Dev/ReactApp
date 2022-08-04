@@ -1,38 +1,182 @@
+body {
+  --Bubble : #fff;
+  --Backgroud : linear-gradient(239.26deg, #DDEEED 63.17%, #FDF1E0 94.92%);
+  background: var(--Backgroud);
+  background-repeat: no-repeat;
+}
+
+input {
+  min-height: 10px;
+  min-width: 60%;
+  word-wrap: break-word;
+  border-radius: 5px;
+  margin: 5px;
+}
+
 .App {
   text-align: center;
+  width: 50%;
+  margin-left: 25%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.MessageSection {
+  margin-bottom: 10%;
+  min-height: 80%;
   display: flex;
   flex-direction: column;
-  align-items: center;
+}
+
+.UserMessageHolder {
+  display: flex;
+  justify-content: right;
+  padding: 5px;
+}
+
+.UserBubble-Normal {
+  border: 2px;
+  border-radius: 15px 15px 15px 15px;
+  background-color: var(--Bubble);
+  height: fit-content;
+  width: fit-content;
+  min-width: 70px;
+  padding: 3px;
+}
+
+.UserBubble {
+  border: 2px;
+  border-radius: 15px 1px 15px 15px;
+  background-color: var(--Bubble);
+  height: fit-content;
+  width: fit-content;
+  min-width: 70px;
+  padding: 3px;
+}
+
+.UserMessage {
+  padding: 3px;
+}
+
+.BotMessageHolder {
+  display: flex;
+  justify-content: left;
+  padding: 5px;
+}
+
+.BotBubble-Normal {
+  border: 2px;
+  border-radius: 15px 15px 15px 15px;
+  background-color: var(--Bubble);
+  height: fit-content;
+  width: fit-content;
+  min-width: 70px;
+  padding: 3px;
+}
+
+.BotBubble {
+  border: 2px;
+  border-radius: 1px 15px 15px 15px;
+  background-color: var(--Bubble);
+  height: fit-content;
+  width: fit-content;
+  min-width: 70px;
+  padding: 3px;
+}
+
+.BotMessage {
+  padding: 3px;
+}
+
+.MessageEnterSection {
+  display: flex;
+  justify-self: end;
+  width: 95%;
+  justify-content: start;
+  margin-right: 65%;
+}
+
+.MessageEnterForm {
+  padding: 5px;
+  width: 100%;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  display: flex;
 }
 
-.App-link {
-  color: #61dafb;
+.MessageInput {
+  display: flex;
+  width: 80%;
+  margin: 10px;
+  justify-content: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.MessageSendButton {
+  display: flex;
+  width: 20%;
+  margin: 10px;
+  margin-left: -10%;
+  justify-content: left;
+}
+
+.ThemeSettingSection {
+  display: flex;
+  width: 20%;
+  justify-self: start;
+  flex-direction: column;
+}
+
+.Custom {
+  display: flex;
+  padding: 5px;
+  flex-direction: column;
+  
+}
+
+.CustomColor1 {
+  display: flex;
+  padding: 5px;
+  text-align: left;
+}
+
+.CustomColor2 {
+  display: flex;
+  padding: 5px;
+  text-align: left;
+}
+
+.CustomLabel {
+  padding: 5px;
+  background-color: #DDEEED;
+}
+
+.CustomLabe2 {
+  padding: 5px;
+  background-color: #DDEEED;
+}
+
+.SetButton {
+  padding: 5px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 30%;
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+  background-color: var(--Bubble);
+}
+
+.UsernameLabel {
+  background-color: var(--Bubble);
+}
+
+.PasswordLabel {
+  background-color: var(--Bubble);
+}
+
+.LoginButtonField {
+  margin-left: 25%;
+  margin-right: auto;
+  width: 50%;
 }

@@ -29,4 +29,7 @@
 - HTML
 - CSS
 
+## Challenges :
+- Creating a persistant theme 
+
 ## Bonus Point 1 and 4 attempted 

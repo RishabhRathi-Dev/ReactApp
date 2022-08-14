@@ -9,19 +9,19 @@
 ## Screenshots:
 - Login Page
 
-![Login Page]()
+![Login Page Dark Theme](https://github.com/RishabhRathi-Dev/ReactApp/blob/main/public/Screenshots/Login%20Page.jpg)
 
 - Chat Section
 
-![Chat Section 1]()
+![Chat Section 1](https://github.com/RishabhRathi-Dev/ReactApp/blob/main/public/Screenshots/ChatMsg1.jpg)
 
-![Chat Section 2]()
+![Chat Section 2](https://github.com/RishabhRathi-Dev/ReactApp/blob/main/public/Screenshots/ChatMsg2.jpg)
 
 - Themes 
 
-![Normal Theme]()
+![Rosy Theme](https://github.com/RishabhRathi-Dev/ReactApp/blob/main/public/Screenshots/RosyTheme.jpg)
 
-![Custom Theme]()
+![Custom Theme](https://github.com/RishabhRathi-Dev/ReactApp/blob/main/public/Screenshots/customTheme.jpg)
 
 ## Tech Used:
 - React
